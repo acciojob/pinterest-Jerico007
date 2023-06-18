@@ -1,1 +1,17 @@
 /*  your css code here. If applicable */
+.image{
+	display:inline;
+}
+img{
+	width:340px;
+	height:190px;
+}
+
+.text{
+	display:inline;
+
+}
+
+.text>h2{
+
+}

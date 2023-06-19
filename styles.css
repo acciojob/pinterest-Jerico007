@@ -1,20 +1,43 @@
-/*  your css code here. If applicable */
-.image{
-	display:inline;
+.hero{
+	display:flex;	
+	justify-content:center;
 }
-img{
-	width:340px;
-	height:190px;
-	object-fit:cover;
+
+.image{
+	display:inline-block;
+}
+
+
+
+.image > img{
+	object-fit: cover;
+	height:200px; 
+	width:400px;
 }
 
 .text{
-	display:inline;
-	position:absolute;
-
+	background-color:white;
+	display:inline-block;
+	text-align:center;
+	width:300px;
+	height:100;
+	
 }
 
-.text>h2{
-   display:flex;
-   text-align:center;
+.text > h1{
+	font-weight:bold;
+}
+
+.text > button{
+	background-color:red;
+	border:none;
+	border-radius:4px;
+}
+
+.text > button > a{
+	text-decoration:none;
+	color:white;
+	font-size:15px;
+	font-family:italic;
+	font-weight:bold;
 }
